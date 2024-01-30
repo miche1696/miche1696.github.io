@@ -443,11 +443,15 @@ details[open] > *:last-child {
 }
 
 /* Format tables */
+
+/* Commented to try transparent tables.
 table {
   border-collapse: collapse;
   width: 100%;
   margin: 1.5rem 0;
 }
+
+
 
 td,
 th {
@@ -460,11 +464,36 @@ th {
   background: var(--accent-bg);
   font-weight: bold;
 }
+*/
+
+/* Set every other cell slightly darker. Improves readability. */
+/*
 
 tr:nth-child(even) {
-  /* Set every other cell slightly darker. Improves readability. */
+  
   background: var(--accent-bg);
 }
+
+*/
+
+table {
+  border-collapse: collapse;
+}
+
+table th, table thead tr {
+  background: #ccc;
+  font-weight: bold;
+}
+
+table tr td:first-child {
+  font-weight: bold;
+}
+
+table tr td {
+  background-color: transparent;
+}
+
+
 
 table caption {
   font-weight: bold;
