@@ -17,6 +17,27 @@
   --preformatted: #444;
   --marked: #ffdd33;
   --disabled: #efefef;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
 }
 
 /* Dark theme */
@@ -443,15 +464,11 @@ details[open] > *:last-child {
 }
 
 /* Format tables */
-
-/* Commented to try transparent tables.
 table {
   border-collapse: collapse;
   width: 100%;
   margin: 1.5rem 0;
 }
-
-
 
 td,
 th {
@@ -464,36 +481,11 @@ th {
   background: var(--accent-bg);
   font-weight: bold;
 }
-*/
-
-/* Set every other cell slightly darker. Improves readability. */
-/*
 
 tr:nth-child(even) {
-  
+  /* Set every other cell slightly darker. Improves readability. */
   background: var(--accent-bg);
 }
-
-*/
-
-table {
-  border-collapse: collapse;
-}
-
-table th, table thead tr {
-  background: #ccc;
-  font-weight: bold;
-}
-
-table tr td:first-child {
-  font-weight: bold;
-}
-
-table tr td {
-  background-color: transparent;
-}
-
-
 
 table caption {
   font-weight: bold;
