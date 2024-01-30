@@ -3,3 +3,15 @@ TO DO.TXT
 FARE UN LOGO
 SCARICARE IMMAGINE MINIATURA SITO
 MODIFICARE LINEE 12 E 13 DEL SITO CON QUESTA MINIATURA/LOGO
+
+
+
+AUTHOR.HTML
+
+modificare linea
+line91 placeholder sezione 3 da decidere cosa mettere e da fare
+
+
+
+PROJECTS.HTML
+copiato author.html , da fare da 0
