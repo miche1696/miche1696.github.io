@@ -8,12 +8,12 @@
 
   /* Default (light) theme */
   --bg: #fff;
-  --accent-bg: #f5f7ff;
-  --text: #212121;
+  --accent-bg: #FDFFFC;
+  --text: #383D3B;
   --text-light: #585858;
-  --border: #d8dae1;
+  --border: ##FDFFFC;
   --accent: #0d47a1;
-  --code: #d81b60;
+  --code: #C1292E;
   --preformatted: #444;
   --marked: #ffdd33;
   --disabled: #efefef;
@@ -29,7 +29,7 @@
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #343a40;
+  --gray-dark: #383D3B;
   --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
@@ -37,7 +37,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #383D3B;
 }
 
 /* Dark theme */
