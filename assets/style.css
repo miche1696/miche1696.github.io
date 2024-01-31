@@ -928,14 +928,21 @@ pre[class*="language-"] {
   font-style: normal;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.left-sidebar {
+  width : 25%;
+  float :left;
+   }
+.right-sidebar {
+  width : 25%;
+  float: right ;
+  height:10px;
+  }
+
+.main { 
+
+  background:yellow;
+  width : 25%;
+  height:10px;
+  float:left;
+
 }
