@@ -743,6 +743,14 @@
    .logo-link-block.main-nav-link.w--current {
      padding-left: 0px;
    }
+
+   .center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
    
    .about-hero-section {
      display: -webkit-box;
