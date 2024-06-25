@@ -1,0 +1,99 @@
+/* 2. Layout - Page building blocks
+/* ---------------------------------------------------------- */
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-main {
+  z-index: 100;
+  flex-grow: 1;
+}
+
+/* Full width page blocks */
+.outer {
+  position: relative;
+  padding: 0 5vw;
+}
+
+/* Centered content container blocks */
+.inner {
+  margin: 0 auto;
+  max-width: 1040px;
+  width: 100%;
+}
+
+/* Usage:
+
+<div class="outer">
+  <div class="inner">
+      Centered content
+  </div>
+</div>
+
+*/
+
+.remark-code-title {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0.75em 1.25em;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  background-color: rgb(31, 41, 55, 0.05);
+}
+
+.highlight-line {
+  background-color: rgb(2, 55, 81);
+  display: block;
+  /* margin-right: -16px; */
+  /* margin-left: -16px; */
+  /* padding-right: 16px; */
+  /* padding-left: 0.75em; */
+  border-left: 4px solid rgb(2, 155, 206);
+}
+
+.line-number-style {
+  display: inline-block;
+  width: 3em;
+  text-align: right;
+  padding-right: 1em;
+  user-select: none;
+  opacity: 0.3;
+  position: relative;
+}
+
+.highlight-line .line-number-style {
+  opacity: 0.5;
+  width: calc(3em - 4px);
+  /* left: -4px; */
+}
+
+.post-full-content {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 130px 6vw;
+  min-height: 230px;
+  font-size: 20px;
+  font-family: Georgia, serif;
+  background: #fff;
+}
+
+@media (max-width: 1170px) {
+  .post-full-content {
+    padding: 0 11vw;
+  }
+}
+@media (max-width: 800px) {
+  .post-full-content {
+    padding: 0 5vw;
+  }
+}
+@media (max-width: 500px) {
+  .post-full-custom-excerpt {
+    font-size: 1.9rem;
+    line-height: 1.5em;
+  }
+}

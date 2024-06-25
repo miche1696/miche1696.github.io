@@ -1,0 +1,31 @@
+.navLeft a,
+.navRight a,
+.navRight button {
+  position: relative; /* for absolute positioning of under score animination */
+  opacity: 0.8;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.logo a:hover,
+.navLeft a:hover,
+.navRight a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.navLeft a:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 100%; /* make the line 0 in length*/
+  height: 1px;
+  bottom: -4px; /* placed this much under the text */
+  background: #fff;
+  opacity: 0.25; /* very dim to begn with */
+  transition: all 0.35s ease-in-out;
+}
+
+.navLeft a:hover:before {
+  right: 0px; /* at the end of the animination extends to cover the full width */
+  opacity: 0.5; /* and more prominent */
+}
